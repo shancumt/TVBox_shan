@@ -1,5 +1,8 @@
+//软件填写配置地址clan://localhost/TVBox/n.json
 {
+    //定义jar地址，启动引擎
     "spider":"clan://TVBox/jar/Yoursmile.jar",
+    //定义首页源的各种网站，抄大佬的最简单
     "sites":[
         {
             "key":"360影视",
@@ -276,6 +279,7 @@
             "ext":"clan://TVBox/ext/Bili_gq.json"
         }
     ],
+    //定义直播源地址，clan://TVBox/live.txt 需要转换成base64编码……粘贴到'=txt&ext='后面
     "lives":[
         {
             "group":"redirect",
@@ -289,6 +293,7 @@
             ]
         }
     ],
+    //定义搜索，抄点就行
     "parses":[
         {
             "name":"Json并发",
@@ -381,6 +386,7 @@
             }
         }
     ],
+    //不知道，保持不动
     "flags":[
         "youku",
         "qq",
@@ -394,6 +400,7 @@
         "wasu",
         "bilibili"
     ],
+    //解码器，保持不动
     "ijk":[
         {
             "group":"硬解码",
@@ -556,6 +563,7 @@
             ]
         }
     ],
+    //屏蔽广告，保持不动
     "ads":[
         "mimg.0c1q0l.cn",
         "www.googletagmanager.com",
