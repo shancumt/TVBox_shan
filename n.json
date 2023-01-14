@@ -1,7 +1,7 @@
-//软件填写配置地址clan://localhost/TVBox/n.json
+//软件填写配置地址clan://localhost/TVBox_shan/n.json
 {
     //定义jar地址，启动引擎
-    "spider":"clan://TVBox/jar/Yoursmile.jar",
+    "spider":"clan://TVBox_shan/jar/Yoursmile.jar",
     //定义首页源的各种网站，抄大佬的最简单
     "sites":[
         {
@@ -279,7 +279,7 @@
             "ext":"clan://TVBox/ext/Bili_gq.json"
         }
     ],
-    //定义直播源地址，clan://TVBox/live.txt 需要转换成base64编码……粘贴到'=txt&ext='后面
+    //定义直播源地址，clan://TVBox_shan/live.txt 需要转换成base64编码……粘贴到'=txt&ext='后面
     "lives":[
         {
             "group":"redirect",
